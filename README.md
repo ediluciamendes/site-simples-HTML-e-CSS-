@@ -5,7 +5,7 @@ Olá! Nós somos estudantes do curso de Análise e Desenvolvimento de Sistemas (
 Sinta-se à vontade para explorar o nosso conteúdo e nos dar feedback. Obrigado por visitar!
 
 --HTML--
-`<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang = "pt-br">
 <head>
     <meta charset="utf-8">
@@ -249,10 +249,10 @@ Sinta-se à vontade para explorar o nosso conteúdo e nos dar feedback. Obrigado
             </p>
     </div>
 </body>
-</html>`
+</html>
 
 --CSS--
-`*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
