@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.911);
+    font-family: 'Poppins', sans-serif;
+    height: 350vh;
+}
+
+.conteiner{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(imagens/planofun.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-position:rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 300px;
+    height: 10vh;
+    display: flex;
+    padding: 10px;
+} 
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+
+ul.navbar li{
+    width: 120px;
+}
+ul.navbar li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+} 
+ul.navbar li a.inicio{
+    color: rgb(29, 107, 175);
+}
+ul.navbar li a:hover:not(.inicio){
+    color: rgb(29, 107, 175);
+}
+.comentario{
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.texto h1{
+    font-size: 3rem;
+}
+.texto p{
+    width: 550px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.mangas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.mangas h1{
+    width: 120px;
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 10px;
+}
+.secao1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.767),rgba(0,0,0,0.712)), url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700172116.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.secao1-img{
+    width: 120px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 45px 0 0;
+    margin-left: 5%;
+}
+.secao1-img img{
+    width: 100%;
+    height: 8%;
+}
+h2{
+    color: #fff;
+    text-decoration: none;
+}
+.star{
+    width: 20px;
+    display: flex;
+}
+.buy-button {
+    bottom: 10px;
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buy-button:hover {
+    background-color: #0056b3;
+}
+.sobre{
+    color: #fff;
+    margin: 5%;
+}
+.sobre h2{
+    justify-content: center;
+    display: flex;
+    padding: 1%;
+    
+}
